@@ -1,3 +1,32 @@
+/* Adding box sizing for good mesure */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* main section 1 */
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-1 {
+  margin: 50px 50px auto;
+  width: 100%;
+  border: 1px solid black;
+  flex-grow: 1;
+  background-color: antiquewhite;
+  box-shadow: 4px 3px 3px black;
+}
+
+.text-content {
+  padding: 1em;
+}
+
+.text-content:hover {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1), rgba(196, 224, 110, 1), rgba(153, 184, 50, 1) 5%, rgba(97, 194, 126, 1) 50%, rgba(0, 212, 255, 1) 80%);
+}
+
 #container-2 {
   background-color: beige;
   border: 1px solid black;
