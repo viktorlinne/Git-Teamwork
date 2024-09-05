@@ -15,5 +15,18 @@ nav li{
     margin: 20px;
 }
 
-#menu-item1{}
+#menu-item1{
+    background-color:blueviolet;
+}
 
+#menu-item2{
+    background-color:chocolate;
+}
+
+#menu-item3{
+    background-color: lawngreen;
+}
+
+#menu-item4{
+    background-color:darkcyan;
+}
