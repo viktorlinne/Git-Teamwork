@@ -1,0 +1,11 @@
+#container-2 {
+  background-color: beige;
+  border: 1px solid black;
+  padding: 10px;
+  width: 500px;
+}
+
+.container-text {
+  border: 1px solid black;
+  padding: 10px;
+}
