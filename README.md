@@ -1,6 +1,6 @@
 # Placeholder
 
-> [!NOTE] :):
+> [!NOTE]
 > Welcome to this project!
 > Want to contribute? Check the .\Contribute file.
 
