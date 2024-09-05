@@ -3,19 +3,23 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+   /*  border: 1px solid black; */
 }
 
 #menu{
     display: flex;
     list-style: none;
-
 }
 
+
+header{
+    border-bottom: 5px solid grey;
+    margin-bottom: 20px;
+}
 nav li{
     padding: 10px;
     margin: 20px;
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 #menu-item1{
@@ -45,49 +49,18 @@ nav li{
   padding: 10px;
 }
 
-<<<<<<< HEAD
 
 /*link functionality*/
 
-nav [id="menu-item"]:hover{
+#menu-item1:hover, #menu-item2:hover, #menu-item3:hover, #menu-item4:hover{
     color: white;
     background-color: black;
     cursor: pointer;
-}
-=======
-#footer-container{
-    justify-content: space-around;
-    border: 1px solid black;
-    background-color: lightblue;
-}
-
-footer{
-    display: flex; 
-    flex-direction: row;
-    flex-grow: 1;
-    border: 1px solid black;
-    justify-content: center;
-    margin:20px auto; 
-    background-color: rgb(18, 144, 228);
-    width: 90%;
-}
-
-#mail-link:link,
-#mail-link:visited,
-#mail-link:hover,
-#mail-link:active{
-    color: black;
+    width: 100px;
 
 }
 
-.maps-head{
 
+#menu-item1:active, #menu-item2:active, #menu-item3:active, #menu-item4:active{
+width: 200px;
 }
-
-iframe{
-    width:"20%";
-     height:"20%";
-     border: 5px solid rgba(224, 54, 54, 0.384);
-      
-}
->>>>>>> c94196e49d38ce70c8b1d12b6b451aedcaf36d82
