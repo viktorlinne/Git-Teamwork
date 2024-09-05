@@ -1,25 +1,20 @@
-
-
 *{
     margin: 0;
     padding: 0;
-   /*  border: 1px solid black; */
+    box-sizing: border-box;
+    margin: 0;
 }
 
 #menu{
     display: flex;
     list-style: none;
+
 }
 
-
-header{
-    border-bottom: 5px solid grey;
-    margin-bottom: 20px;
-}
 nav li{
     padding: 10px;
     margin: 20px;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 #menu-item1{
@@ -37,6 +32,29 @@ nav li{
 #menu-item4{
     background-color:darkcyan;
 }
+
+/* main section 1 */
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-1 {
+  margin: 50px 50px auto;
+  width: 100%;
+  border: 1px solid black;
+  flex-grow: 1;
+  background-color: antiquewhite;
+  box-shadow: 4px 3px 3px black;
+}
+
+.text-content {
+  padding: 1em;
+}
+
+.text-content:hover {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1), rgba(196, 224, 110, 1), rgba(153, 184, 50, 1) 5%, rgba(97, 194, 126, 1) 50%, rgba(0, 212, 255, 1) 80%);
+}
 #container-2 {
   background-color: beige;
   border: 1px solid black;
@@ -49,18 +67,47 @@ nav li{
   padding: 10px;
 }
 
+#footer-container{
+    justify-content: space-around;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+footer{
+    display: flex; 
+    flex-direction: row;
+    flex-grow: 1;
+    border: 1px solid black;
+    justify-content: center;
+    margin:20px auto; 
+    background-color: rgb(18, 144, 228);
+    width: 90%;
+}
+
+#mail-link:link,
+#mail-link:visited,
+#mail-link:hover,
+#mail-link:active{
+    color: black;
+
+}
+
+.maps-head{
+
+}
+
+iframe{
+    width:"20%";
+     height:"20%";
+     border: 5px solid rgba(224, 54, 54, 0.384);
+      
+}
 
 /*link functionality*/
 
-#menu-item1:hover, #menu-item2:hover, #menu-item3:hover, #menu-item4:hover{
+nav [id="menu-item"]:hover{
     color: white;
     background-color: black;
     cursor: pointer;
-    width: 100px;
-
 }
 
-
-#menu-item1:active, #menu-item2:active, #menu-item3:active, #menu-item4:active{
-width: 200px;
-}
