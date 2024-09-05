@@ -14,6 +14,7 @@
 nav li{
     padding: 10px;
     margin: 20px;
+    font-weight: bold;
 }
 
 #menu-item1{
@@ -41,4 +42,13 @@ nav li{
 .container-text {
   border: 1px solid black;
   padding: 10px;
+}
+
+
+/*link functionality*/
+
+nav [id="menu-item"]:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
 }
